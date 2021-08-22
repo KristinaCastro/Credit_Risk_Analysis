@@ -67,7 +67,7 @@ Balanced accuracy score           |  Confusion matrix
 <img width="722" alt="Screen Shot 2021-08-22 at 2 46 02 AM" src="https://user-images.githubusercontent.com/81998045/130345390-9c718f85-3c98-4cf7-a53d-887694e8b8b6.png">
 </p>
 
-### Logistic Regression: SMOTEENN (Over and Under) Sampling
+### SMOTEENN (Over and Under) Sampling
 
 - Balanced accuracy score: 0.65
  - Precision score:
@@ -84,5 +84,30 @@ Balanced accuracy score           |  Confusion matrix
 <img width="732" alt="Screen Shot 2021-08-22 at 2 52 26 AM" src="https://user-images.githubusercontent.com/81998045/130345565-abec5f12-6aed-49bd-9ab4-38aa3bd4528a.png">
 </p>
 
+### Ensemble Learners: Balanced Random Forest Classifier 
+- Balanced accuracy score: 0.78
+ - Precision score:
+      - high risk: 0.03
+      - low risk: 1.00
+ - Recall (sensitivity) score:
+      - high risk: 0.70
+      - low risk: 0.87 
+
+<img width="735" alt="Screen Shot 2021-08-22 at 3 11 08 AM" src="https://user-images.githubusercontent.com/81998045/130346001-a528276b-3d6b-4c81-ac02-e00caadd9bbf.png">
+
+- The following image shows the top 15 features in order of importance:
+
+<img width="596" alt="Screen Shot 2021-08-22 at 3 22 35 AM" src="https://user-images.githubusercontent.com/81998045/130346265-e9abf577-21bb-4061-afaf-517c7dda27a5.png">
+
+### Ensemble Learners: Easy Ensemble AdaBoost Classifier
+- Balanced accuracy score: 0.93
+ - Precision score:
+      - high risk: 0.09
+      - low risk: 1.00
+ - Recall (sensitivity) score:
+      - high risk: 0.92
+      - low risk: 0.94 
+
+<img width="596" alt="Screen Shot 2021-08-22 at 3 17 06 AM" src="https://user-images.githubusercontent.com/81998045/130346152-0031cb90-492d-4355-bddc-0db8a2f2bd0b.png">
 
 
