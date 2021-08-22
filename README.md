@@ -1,4 +1,4 @@
-# Credit_Risk_Analysis
+# Supervised Machine Learning: Credit Risk Analysis
 
 ## Overview of Analysis:
 Credit risk is an inherently unbalanced classification problem, good loans easily outnumber risky loans. We are tasked with employing different techniques to train and evalute models with unbalanced classes. Using the imbalanced-learn and scikit-learn libraries, we'll build models using resampling and evalute the performance of each model in predicting client credit risk.
@@ -110,4 +110,6 @@ Balanced accuracy score           |  Confusion matrix
 
 <img width="596" alt="Screen Shot 2021-08-22 at 3 17 06 AM" src="https://user-images.githubusercontent.com/81998045/130346152-0031cb90-492d-4355-bddc-0db8a2f2bd0b.png">
 
-
+### Summary
+## Balanced Accuracy Score
+  - 
