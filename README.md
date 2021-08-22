@@ -1,7 +1,7 @@
 # Supervised Machine Learning: Credit Risk Analysis
 
 ## Overview of Analysis:
-Credit risk is an inherently unbalanced classification problem, good loans easily outnumber risky loans. We are tasked with employing different techniques to train and evalute models with unbalanced classes. Using the imbalanced-learn and scikit-learn libraries, we'll build models using resampling and evalute the performance of each model in predicting client credit risk.
+Credit risk is an inherently unbalanced classification problem, good loans easily outnumber risky loans. We are tasked with employing different techniques to train and evaluate models with unbalanced classes. Using the imbalanced-learn and scikit-learn libraries, we'll build models using resampling and evaluate the performance of each model in predicting client credit risk.
 
 ## Results of Analysis:
 
@@ -23,16 +23,11 @@ Credit risk is an inherently unbalanced classification problem, good loans easil
 Balanced accuracy score           |  Confusion matrix
 :-------------------------:|:-------------------------:
 ![Screen Shot 2021-08-22 at 1 43 16 AM](https://user-images.githubusercontent.com/81998045/130343912-aebe4c94-43b2-4212-adf0-b9b3f1f7c5ba.png)  |  ![Screen Shot 2021-08-22 at 1 43 56 AM](https://user-images.githubusercontent.com/81998045/130343933-b59fd367-f840-43b8-bb54-c0086602a4cd.png)
-
 <p align="center">
 <img width="724" alt="Screen Shot 2021-08-22 at 2 10 48 AM" src="https://user-images.githubusercontent.com/81998045/130344504-b15aebb9-5c17-4929-b1c9-3e8f7ae9a136.png">
 </p>
 
-<!-- <p align="center">
-  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
-</p>
- -->
- 
+
  ### Logistic Regression: SMOTE Oversampling
  
  - Balanced accuracy score: 0.65
@@ -110,6 +105,13 @@ Balanced accuracy score           |  Confusion matrix
 
 <img width="596" alt="Screen Shot 2021-08-22 at 3 17 06 AM" src="https://user-images.githubusercontent.com/81998045/130346152-0031cb90-492d-4355-bddc-0db8a2f2bd0b.png">
 
-### Summary
-## Balanced Accuracy Score
-  - 
+## Summary
+### Balanced Accuracy Score
+  - Easy Ensemble AdaBoost Classifier had the highest balanced accuracy score of 0.93
+### Precision Score
+  - Easy Ensemble AdaBoost Classifier had a high risk precision score of 0.09, a low risk precision score of 1.0 & a F1 score of 0.16
+### Recall Score
+  - Easy Ensemble AdaBoost Classifier had a high risk recall score of 0.92, a low risk recall score of 0.94 & a F1 score of 0.97
+
+As a result, the Easy Ensemble Adaboost Classifier is the recommended model to predict client credit risk because of its high accuracy score and high balance of precision and recall scores, making it the best model to use out of all models. 
+
